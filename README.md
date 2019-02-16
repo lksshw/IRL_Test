@@ -1,6 +1,6 @@
 # Apprenticeship IRL for navigation in the presence of moving objects
 
-**note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/). 
+** note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/). 
 
 The environment is modified to include moving obstacles and the agent was trained to traverse the path by user demonstrations along a pre-defined path. The policies recovered can be found in the 'saved_models-bumping' folder.
 
@@ -9,7 +9,7 @@ This project was carried in a bid to test the current state of the art cost reco
 
 ## Environment 
 
-![Environment](https://raw.githubusercontent.com/test13234/IRL_test/Images/Env.png)
+![Environment](https://github.com/test13234/IRL_Test.git/Images/Env.png)
 
 The rotatory arms induce stochasticity for the random environment. 
 
@@ -17,16 +17,16 @@ The rotatory arms induce stochasticity for the random environment.
  
 A screengrab of the best policy trained for can be found in the 'video' folder in the repository
 
-**The best policy trained was 'policy_2', which can be found in the 'saved_models-bumping' folder, you can run the same (provided you satisfy all dependencies) using: 
+** The best policy trained was 'policy_2', which can be found in the 'saved_models-bumping' folder, you can run the same (provided you satisfy all dependencies) using: 
 
 `python3 playing.py 'bumping' '2' '100000'`
 
 
-##Contact
+## Contact
 
 If there are any queries regarding the implementation, you can reach me at shreeshalakshwin@gmail.com
 
-##References and thanks
+## References and thanks
 
 1. The algorithms for IRL were developed by Jangir rishabh and Matt harvey
 2. Andrew Ng and Stuart Russell, 2000 - Algorithms for Inverse Reinforcement Learning
