@@ -1,4 +1,4 @@
-#Apprenticeship IRL for navigation in the presence of moving objects
+# Apprenticeship IRL for navigation in the presence of moving objects
 
 **note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/). 
 
@@ -7,9 +7,9 @@ The environment is modified to include moving obstacles and the agent was traine
 This project was carried in a bid to test the current state of the art cost recovering algorithms in the inverse optimal control paradigm. Our goal was to understand key aspects of these algorithms and develop on them to develop a self navigating agent in stochastic environments. A detailed report of all the algorithms surveyed can be found in the 'Report' folder in this repository. 
 
 
-##Environment 
+## Environment 
 
-![alt text](https://raw.githubusercontent.com/test13234/IRL_test/Images/Env.png)
+![Environment](https://raw.githubusercontent.com/test13234/IRL_test/Images/Env.png)
 
 The rotatory arms induce stochasticity for the random environment. 
 
