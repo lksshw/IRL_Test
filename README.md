@@ -9,7 +9,7 @@ This project was carried in a bid to test the current state of the art cost reco
 
 ## Environment 
 
-![Environment](http://github.com/test13234/IRL_Test/Images/Env "Modified simulation environment")
+![Environment](/Images/Env.png?raw=true "Modified simulation environment")
 
 The rotatory arms induce stochasticity for the random environment. 
 
