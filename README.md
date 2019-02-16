@@ -1,6 +1,6 @@
 # Apprenticeship IRL for navigation in the presence of moving objects
 
-**note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/).** 
+**Note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/).** 
 
 The environment is modified to include moving obstacles and the agent was trained to traverse the path by user demonstrations along a pre-defined path. The policies recovered can be found in the 'saved_models-bumping' folder.
 
@@ -9,7 +9,7 @@ This project was carried in a bid to test the current state of the art cost reco
 
 ## Environment 
 
-![Environment](https://github.com/test13234/IRL_Test.git/Images/Env)
+![Environment](http://github.com/test13234/IRL_Test.git/Images/Env "Modified simulation environment")
 
 The rotatory arms induce stochasticity for the random environment. 
 
