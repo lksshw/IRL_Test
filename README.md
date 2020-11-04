@@ -1,5 +1,7 @@
-*Update (October 2020):* This repository is under construction. 
+**Update [october 2020]:** This repository is under construction. 
+
 ---
+
 ### Apprenticeship IRL for navigation in the presence of moving objects
 
 **Note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/).** 
