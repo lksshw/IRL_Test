@@ -1,4 +1,4 @@
-**Update [November 2020]:** This repository is under construction. 
+**Update [November 2020]:** This repository is under construction. I'm distilling the repository to make it more presentable.
 
 ---
 
