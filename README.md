@@ -1,14 +1,9 @@
 **Update [November 2020]:** This repository is under construction. I'm distilling the repository to make it more presentable.
 
 ---
+### Apprenticeship IRL
 
-### Apprenticeship IRL for navigation in the presence of moving objects
+Traditional reinforcement learning algorithms involve defining an explicit feedback signal/reward. This feedback signal, directs an agent to recover optimal behavior for the task at hand. A major problem of this form of explicit preemptive goal definition is that it breaks down at slightly complex tasks. The confusion lies in deciding what the right reward is, whether to assign a +/- reward as in Atari, or to define a reward _function_ which is dependent on several variables (position, velocity etc.). Such explicit goal definitions will always be biased to what we think is the correct reward to assign. This may be trivial, redundant or may not be robust enough to recover optimal behavior. Moreover, biological learning systems do not work this way. The plasticity of the brain ensures that rewards are flexible, morphing its credit assignment to the task at hand. Inspired by this behavior, the domain of Inverse Reinforcement Learning (IRL) enables an agent to discover what the correct reward function is on its own. For it to do so, the agent is provided with an ideal and near optimal policy to begin with. This optimal policy is nothing but a human navigating the agent manually and recording their action and reward at each state. Given that such an optimal policy is available, the task of inverse reinforcement learning is to recover the reward function underlying this optimal policy. Such recovery is usually implicit--- in the form of a learned neural network that takes in frame inputs and spews out a reward. This new direction of research of IRL has developed quite rapidly over the past few years. However, it all began with a paper by Pieter Abbeel and Andrew N.G titled Apprenticeship learning. This repository is an experiment and benchmark of the apprenticeship learning IRL algorithm. It is setup in a slightly complex navigation environment that contains dynamic obstacles (the environment is displayed below). You can read the full paper and methodology **[here](https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf)**
 
-**Note: This repository is an modification and extension of the work carried out by Jangir rishabh (https://jangirrishabh.github.io/2016/07/09/virtual-car-IRL/).** 
 
-The environment is modified to include moving obstacles and the agent was trained to traverse the path by user demonstrations along a pre-defined path. The policies recovered can be found in the 'saved_models' folder.
-
-This project was carried in a bid to test the current state of the art cost recovering algorithms in the inverse optimal control paradigm. Our goal was to understand key aspects of these algorithms and develop on them to develop a self navigating agent in stochastic environments. 
-
-A detailed report of my results are to follow in the next few days.
 
