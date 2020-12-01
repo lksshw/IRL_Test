@@ -6,8 +6,9 @@ Traditional reinforcement learning algorithms involve defining an explicit feedb
 ![](media/output.gif)
 
 The best policy recovered after training. A noteworthy moment is when the agent avoids the rotating bar. Even though promising, apprenticeship IRL is not robust enough for navigation in dynamic environments.
----
 
+
+---
 ## Replication
 
 Please use a virtualenv to replicate my results. We can't have you creating a mess of your packages. Once you're on your virtualenv you'll need to install the following dependencies. 
