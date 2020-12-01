@@ -39,16 +39,16 @@ These expert trajectories are set when you manually drive around the obstacles u
     ```bash
     $ python3 manualControl.py
     ```
-After you finish navigating, copy the sensor weights and paste it as one of the W's in *policyEvaluation.py*
+After you finish navigating, copy the sensor weights and paste it as one of the W's in *policyEvaluation.py*.
 
-You'll need to get 7-10 such expert policies and paste their sensor weights in *policyEvaluation.py*
+You'll need to get 7-10 such expert policies and paste their sensor weights in *policyEvaluation.py*.
 
 - To train using apprenticeship IRL run:
     ```bash
     $ python3 learning.py
     ```
     
-The weights are saved to the *saved-models* folder 
+The weights are saved to the *saved-models* folder.
 
 
 ### References
