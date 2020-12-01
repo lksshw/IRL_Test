@@ -48,9 +48,8 @@ def play(model, weights):
 
 if __name__ == "__main__": # ignore
     BEHAVIOR = sys.argv[1]
-    ITERATION = sys.argv[2]
-    FRAME = sys.argv[3]
-    saved_model = 'saved-models_'+BEHAVIOR+'/evaluatedPolicies/'+str(ITERATION)+'-164-150-100-50000-'+str(FRAME)+'.h5'
+    FRAME = '100000' 
+    saved_model = 'saved-models'+'/'+str(ITERATION)+'-164-150-100-50000-'+str(FRAME)+'.h5'
     weights = [-0.79380502 , 0.00704546 , 0.50866139 , 0.29466834, -0.07636144 , 0.09153848 ,-0.02632325 ,-0.09672041]
     model = neural_net(NUM_STATES, [164, 150], saved_model)
     print (play(model, weights))
