@@ -31,7 +31,7 @@ This command will fetch policy no.2 from the saved_policies folder.
 
 ### Training
 
-In case you are interested in training the agent from scratch, you will first need to provided some expert trajectories to the model. 
+In case you're interested in training the agent from scratch, you'll first need to provided some expert trajectories to the model. 
 
 These expert trajectories are set when you manually drive around the obstacles using your arrow keys.
 
@@ -41,7 +41,7 @@ These expert trajectories are set when you manually drive around the obstacles u
     ```
 After you finish navigating, copy the sensor weights and paste it as one of the W's in *policyEvaluation.py*
 
-You will need to get 7-10 such expert policies and paste their sensor weights in *policyEvaluation.py*
+You'll need to get 7-10 such expert policies and paste their sensor weights in *policyEvaluation.py*
 
 - To train using apprenticeship IRL run:
     ```bash
@@ -54,7 +54,7 @@ The weights are saved to the *saved-models* folder
 ### References
 
 
-* The original Apprenticeship IRL implementation on a simple static environment [toyCarIRL](https://github.com/jangirrishabh/toyCarIRL)
+* The original Apprenticeship IRL implementation on a simple static environment: [toyCarIRL](https://github.com/jangirrishabh/toyCarIRL)
 
 * Apprenticeship learning by [NG Et al.](https://ai.stanford.edu/~ang/papers/icml04-apprentice.pdf)
 
